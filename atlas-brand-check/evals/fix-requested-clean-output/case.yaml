@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: fix-requested-clean-output
+expected_outcome: |
+  Produces a corrected .pptx without annotations or hidden before-slides; auto-fixable issues fixed, original untouched, compliant shapes unchanged, 24 pt size and off-palette fill and off-grid box reported as remaining for the designer, re-verified.
+context:
+  scaffold_script: place-files.sh

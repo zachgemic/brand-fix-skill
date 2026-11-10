@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: compliant-deck-reports-clean
+expected_outcome: |
+  Reports no issues in the checked categories. Does not flag the 38 pt display text, 10 pt bold label with orange fill, taupe fill, five-column text positions, or 0.10 in table padding. Does not claim the deck is 'fully on brand'. Does not produce a fixed file.
+context:
+  scaffold_script: place-files.sh

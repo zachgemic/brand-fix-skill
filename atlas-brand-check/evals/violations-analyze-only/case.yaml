@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: violations-analyze-only
+expected_outcome: |
+  Reports all seeded violations, separates auto-fixable from needs-designer, offers to apply fixes but does not apply them, produces no fixed deck.
+context:
+  scaffold_script: place-files.sh
